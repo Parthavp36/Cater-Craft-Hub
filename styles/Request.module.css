@@ -1,0 +1,52 @@
+.cont
+{
+    height: 600px;
+    width: 80%;
+    margin-top: 30px;
+    background-image: url('/images/request.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: end;
+
+}
+.cont div
+{
+    height: 80%;
+    width:40%;
+    margin-right:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.cont div h1
+{
+    color:#00755E;
+}
+.cont div p
+{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+.cont div button
+{
+    height: 35px;
+    width:180px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.cont div button:hover
+{
+    background-color: white;
+    color:black;
+}
+.cont div button:active
+{
+    opacity: 0.5;
+}

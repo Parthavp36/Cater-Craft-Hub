@@ -1,0 +1,82 @@
+.sec
+{
+    height:auto;
+    width:80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    opacity: 0.98;
+}
+#si
+{
+    background-color: #F3B802;
+    color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hot
+{
+    height:200px;
+    width: 90%;
+    border-bottom:1px solid #F3B802;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+.hot div
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
+}
+.hot div p
+{
+    color:gray;
+}
+.hot button
+{
+    height:35px;
+    width:100px;
+    background-color: #F3B802;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.hot button:hover
+{
+    color:#F3B802;
+    background-color: white;
+    border: 1px solid #F3B802;
+}
+.hot button:active
+{
+    opacity: 0.5;
+}
+.over
+{
+    height: auto;
+    width: 101.5%;
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    justify-content: center;
+}

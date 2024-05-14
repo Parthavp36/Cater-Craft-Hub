@@ -1,0 +1,198 @@
+.cont
+{
+    height:auto;
+    width:90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head
+{
+    
+    display : flex;
+    align-items : center;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s
+{
+    height : 200px;
+    width : auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+.s button{
+    background-color: rgba(255, 0, 0, 0);
+    color : white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height:35px;
+    width:130px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.s button:hover
+{
+    opacity: 0.5;
+}
+
+#imgg
+{
+    height:200px;
+    width:90%;
+    padding: 20px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+#imgg h1
+{
+    color:white;
+}
+#imgg p
+{
+    font-size: 18px;
+    margin-top: 5px;
+    color:white;
+}
+.icon
+{
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    color:#F3B802;
+}
+#imgg div
+{
+    height: auto;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.items
+{
+    height: auto;
+    width:90%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.items:hover
+{
+    opacity: 0.5;
+}
+.pop
+{
+    height:300px;
+    width:350px;
+    margin-top: 50px;
+    padding: 30px;
+    position: absolute;
+    top:10;
+    left:200;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pop button
+{
+    height:35px;
+    width:100px;
+    background-color: #F3B802;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pop button:hover
+{
+    background-color: white;
+    color: #F3B802;
+    border: 1px solid #F3B802;
+}
+.pop div
+{
+    width:100%;
+    height:30px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.pop span
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 0px;
+}
+.func
+{
+    width:100%;
+    height:150px;
+    display: flex;
+    align-items: start;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.func div
+{
+    width:100px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 10px;
+    padding:5px;
+    margin-top: 0px;
+}
+.func div button
+{
+    height:20px;
+    width:20px;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+.func div button:hover
+{
+    border:1px solid black;
+}
+.func div button:active
+{
+    opacity:1;
+}
+.func button
+{
+    height: 45px;
+    width:200px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+.func button:hover
+{
+    color:black;
+    background-color: white;
+    border:2px solid black;
+}
+.func button:active
+{
+    opacity: 0.5;
+}

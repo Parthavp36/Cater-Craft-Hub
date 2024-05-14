@@ -1,0 +1,84 @@
+.over
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sec
+{
+    height:auto;
+    width:80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:30px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: start;
+    opacity: 0.98;
+}
+#head
+{
+    height:100px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#head p
+{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sec div
+{
+    height: 300px;
+    width:250px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec div p
+{
+    text-align: center;
+    font-size: 18px;
+    width:300px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.icon
+{   font-size: 30px;
+    height: 40px;
+    width:40px;
+    cursor: pointer;
+    padding:10px;
+    margin-top: 30px;
+    background-color:#CA3433 ;
+    color:black;
+    border-radius: 100%;
+}
+.over button
+{
+    height : 40px;
+    width:220px;
+    background-color: black;
+    color:white;
+    border-radius: 2px;
+    border: none;
+}
+.over button:hover
+{
+    opacity: 0.5;
+}

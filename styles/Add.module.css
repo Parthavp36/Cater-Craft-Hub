@@ -1,0 +1,101 @@
+.cont
+{
+    width: 60%;
+    height: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.smcont
+{
+    height:auto;
+    width:100%;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+    margin-left: 45px;
+}
+.smcont div
+{
+    height:auto;
+    width:80%;
+}
+.smcont div p
+{
+    font-size: 18px;
+}
+.smcont div section
+{
+    width:90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.smcont div  table
+{
+    height: auto;
+    width:90%;
+    border-collapse: collapse;
+}
+.smcont div table tr
+{
+    width:100%;
+    height:40px;
+    padding:10px;
+    border-collapse: collapse;
+    border:1px solid black;  
+}
+.smcont div table td
+{
+    height:30px;
+    width:auto;
+    font-size: 12px;
+    text-align:center ;
+}
+.smcont div table td input
+{
+    height:30px;
+    width:95%;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    border:none;
+    background-color: white;
+
+}
+.smcont div button
+{
+    height:30px;
+    width:120px;
+    background-color: white;
+    color:#F3B802;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.smcont div button:hover
+{
+    opacity: 0.5;
+}
+.icon
+{
+   margin-right: 10px;
+}
+.tb
+{
+    Border-right:1px solid black;
+    font-size: 12px;
+}

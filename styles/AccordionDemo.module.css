@@ -1,0 +1,55 @@
+.cont
+{
+    height: auto;
+    width:80%;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F3B802;
+}
+.content
+{
+    height:auto;
+    width:60%;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #F3B802;
+    transition: 0.3s;
+}
+.content h2
+{
+    color:black;
+}
+.content div
+{
+    height: auto;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.icon
+{
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.icon:hover
+{
+    color:#F3B802;
+}
+.content p
+{
+    color:gray;
+    margin-top: 5px;
+    line-height: 1.5;
+}
